@@ -1,3 +1,43 @@
 body{
-	background: lightsalmon;
+  background-color:#00FFFF;
+  font-family:sans-serif;
+}
+#ejercicio{
+  display:flex;
+}
+.lado{
+  width:50%;
+  margin-right:100px;
+}
+.dado{
+  background-image:url(https://i.pinimg.com/originals/0b/61/ba/0b61ba096406865f0e76a9b07e36dc69.png);
+  background-position:-803px;
+  width:157px;
+  height:156px;
+}
+#contenedor_dados{
+  display:flex;
+  width:315px;
+  margin:0 auto;
+}
+
+#boton_tirar{
+  display:block;
+  width:100px;
+  height:60px;
+  margin:10px auto;
+  background-color:#A62E2E;
+  color:#F2D857;
+  border:0;
+  border-radius:10px;
+  cursor:pointer;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+  #ejercicio{
+    flex-direction:column;
+  }
+  .lado{
+    width:100%;
+  }
 }
