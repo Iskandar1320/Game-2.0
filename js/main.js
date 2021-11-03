@@ -27,7 +27,6 @@ function jugar(){
   console.log("Tiro 2: "+ tiro2)
 
   if(suma == 7 || suma ==11)
-
   {
     alert("ganaste la partida")
   }
