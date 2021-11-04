@@ -23,10 +23,6 @@ function jugar(){
   console.log("Tiro 1: "+ tiro1)
   console.log("Tiro 2: "+ tiro2)
 
-<<<<<<< HEAD
-=======
-
->>>>>>> ae345971afe44f9410165c83fcc1cab140f4a1c5
   if(suma == 7 || suma ==11)
   {
     
