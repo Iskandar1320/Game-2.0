@@ -9,26 +9,27 @@ function init(){
   boton_tirar = document.getElementById("boton_tirar");
   boton_tirar.addEventListener("click",jugar);
 }
-
 //https://stackoverflow.com/questions/4959975/generate-random-number-between-two-numbers-in-javascript
 function tirardado(ref){
   var cara = Math.floor(Math.random() * 6) + 1 ;
   ref.style.backgroundPosition = posiciones[cara-1]+"px";
   return cara;
 }
-
 function jugar(){
   let tiro1 = tirardado(dado1);
   let tiro2 =tirardado(dado2);
   let suma= tiro1 + tiro2
 
-
   console.log("Tiro 1: "+ tiro1)
   console.log("Tiro 2: "+ tiro2)
 
-  if(suma == 7 || suma ==11)
+<<<<<<< HEAD
+=======
 
+>>>>>>> ae345971afe44f9410165c83fcc1cab140f4a1c5
+  if(suma == 7 || suma ==11)
   {
+    
     alert("ganaste la partida")
   }
 }
